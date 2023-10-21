@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <title>Acquarium</title>
+
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="source.css">
+    <!--icon-->
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!--header design-->
+<header>
+    <a href="#" class="logo">AQUA<span>rium</span></a>
+
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Information</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Functions</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+
+    <div class="h-right">
+        <a href="#">Follow us</a>
+        <a href="#"><i class="ri-instagram-fill"></i></a>
+        <a href="#"><i class="ri-twitter-fill"></i></a>
+        <a href="#"><i class="ri-facebook-fill"></i></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+</header>
+<!--home section-->
+<section class="home">
+    <div class="home-text">
+        <h5>Tìm hiểu</h5>
+        <h1>HỒ CÁ <br> THỦY SINH</h1>
+        <P>Hồ cá thông minh là một hệ sinh thái đầy kỳ diệu, nơi mà những chú cá sáng sủa và thông minh tạo nên một thế giới đa dạng và phong phú. 
+            Được thiết kế tỉ mỉ với cảnh quan tự nhiên và trạng thái nước hoàn hảo, hồ nuôi cá thông minh không chỉ là một nơi để quan sát những biểu 
+            diễn tinh tế của các loài cá mà còn là một thách thức cho trí tuệ của người chủ trong việc duy trì môi trường lý tưởng để hỗ trợ sự phát triển 
+            của các sinh vật thông minh này</P>
+        <h1></h1>
+        <a href="#" class="btn">Đặt hàng</a>
+    </div>
+
+</section>
+<!--feature section design-->
+<section class="feature">
+    <div class="feature-content">
+        <div class="row">
+            <div class="row-img">
+                <img src="./img/343353038_938970960586062_4762794099318987951_n.jpg">
+            </div>
+            <a href="https://www.facebook.com/phuongdung271102/">Phương Dung</a>
+        </div>
+
+        <div class="row">
+            <div class="row-img">
+                <img src="img/357580748_3507598142844006_4827185231571440316_n.jpg">
+            </div>
+            <a href="https://www.facebook.com/baonilong.Lvin">Hồng Ngọc</a>
+        </div>
+
+        <div class="row">
+            <div class="row-img">
+                <img src="./img/297449985_3141067439491568_1511606412712103678_n.jpg">
+            </div>
+            <a href="https://www.facebook.com/huydoan38">Đức Huy</a>
+        </div>
+    </div>
+</section>
+<!--Introduction-->
+<section class="holiday">
+    <div class="holiday-img">
+        <img src="img/hồ 1.jpg">
+    </div>
+
+    <div class="holiday-text">
+        <h5>fish acquarium</h5>
+        <h2>Bạn là người thích nuôi cá?</h2>
+        <p>Hồ nuôi cá thông minh là nơi thể hiện sự hòa quyện giữa nghệ thuật thiết kế và tài năng tự nhiên. 
+            Các cá với màu sắc rực rỡ và vẻ đẹp đa dạng tạo nên một bức tranh sống động. Chúng tạo ra những 
+            biểu diễn tinh tế qua việc tương tác thông minh với môi trường, thể hiện khả năng tinh thần sáng 
+            tạo và khéo léo của chúng trong việc tạo nên các màn kịch độc đáo.Chúng tạo ra những biểu diễn tinh 
+            tế qua việc tương tác thông minh với môi trường, thể hiện khả năng tinh thần sáng tạo và khéo léo của 
+            chúChúng tạo ra những biểu diễn tinh tế qua việc tương.</p>
+            <a href="#" class="btn">Đọc thêm</a>
+    </div>
+</section>
+ <!--header design-->
+ <section class="Functions">
+    <div class="center-text">
+        <h2>Chức năng hồ cá thông minh</h2>
+    </div>
+<!--Điều khiển led-->
+    <div class="tour_function">
+        <div class="box">
+            <img id="denId_01" class="card-img-top" src="./img/led_off.png" alt="Card image">
+            <h6>LED</h6>
+            <h4>Điều khiển led</h4>
+            <div>
+                <button id="btnOnId_01">ON</button>
+                <button id="btnOffId_01">OFF</button>
+            </div>
+        </div>
+
+<!--nhiệt độ-->
+        <div class="box">
+            <img src="./img/nhiệt độ (2).png">
+            <h6>TEMPERATURE</h6>
+            <h4>Nhiệt độ: <span id="nhietdo">00</span> </h4>
+        </div>
+ 
+<!--Độ ẩm-->
+        <div class="box">
+            <img src="./img/độ ẩm 9.png">
+            <h6>HUMIDITY</h6>
+            <h4>Độ ẩm: <span id="doam">00</span></h4>
+        </div>
+    </div>
+ </section>
+ <!-----chức năng quạt gió-------->
+ <section class="quat_gio">
+    <div class="quat-gio-text">
+        <h5>HỆ THỐNG QUẠT GIÓ</h5>
+        <h2>Chức năng này chỉ có ở sản phẩm chúng tôi</h2>
+        <p>Quạt gió đóng vai trò quan trọng trong hồ nuôi cá thông 
+            minh bằng cách cung cấp lưu thông không khí, duy trì mức
+            oxy cần thiết cho sự sống của cá và hỗ trợ trong việc kiểm 
+            soát nồng độ khí độc tạo nên môi trường nước lý tưởng để các
+            loài cá thông minh phát triển và trưng bày sự tinh tế của họ.</p>
+        <div>
+            <button id="btnOnId_02">ON</button>
+            <button id="btnOffId_02">OFF</button>
+        </div>
+
+    </div>
+    <div class="quat-gio-img">
+        <img id="quatgio" class="card-img-top" src="./img/quat_off (2).png" alt="Card image">
+    </div>
+ </section>
+<!-----new letter-------->
+<section class="newsletter">
+    <div class="newsletter-content">
+        <div class="newsletter-text">
+            <h2>Bạn đã sẵn sàng chưa?</h2>
+            <p>Hãy trải nghiệm sản phẩm của chúng tôi</p>
+        </div>
+        <form action="">
+            <input type="email" placeholder="Enter your email..."
+            required>
+            <input type="submit" value="Get started" class="btn">
+        </form>
+    </div>
+</section>
+<!-----food section design-------->
+<section class="footer">
+    <div class="footer-box">
+        <h3>Dịch vụ</h3>
+        <a href="#">Bảo hành</a>
+        <a href="#">Lắp ráp</a>
+        <a href="#">Sửa chữa</a>
+        <a href="#">Nâng cấp</a>
+
+    </div>
+
+    <div class="footer-box">
+        <h3>About</h3>
+        <a href="#">Our story</a>
+        <a href="#">Benefits</a>
+        <a href="#">Team</a>
+        <a href="#">Carrers</a>
+    </div>
+
+    
+    <div class="footer-box">
+        <h3>Help</h3>
+        <a href="#">FAQs</a>
+        <a href="#">Contact us</a>
+    </div>
+
+    <div class="footer-box">
+        <h3>Social</h3>
+        <div class="social">
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+        </div>
+
+    </div>
+</section>
+<!-----copyright-------->
+<div class="copyright">
+    <p>Copyright 2023 By PhuNGo Huy</p>
+</div>
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+<script src="script.js"></script>
+</html>
